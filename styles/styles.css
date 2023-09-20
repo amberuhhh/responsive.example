@@ -28,6 +28,12 @@ gallery-images img{
     padding: 10px 20px;
 }
 
+.px-hading {
+    font-size: 2rem;
+}
+
+
+
 
 
 /*if the screen is less than 768px wide, run this css*/
