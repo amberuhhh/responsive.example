@@ -1,0 +1,48 @@
+
+
+gallery-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+gallery-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: solid red 5px;
+}
+
+.hero {
+    background-image: url(/images/Me-and-My-Friends.png);
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2, .hero p {
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+
+/*if the screen is less than 768px wide, run this css*/
+@media screen and (max-width: 768px) {
+    .gallery-images {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery-images img {
+        border: solid blue 5px;
+    }
+}
+
+@media screen and (max-width: 480) {
+    .gallery-images {
+        grid-template-columns: 1fr;
+    }
+}
