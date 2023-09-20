@@ -45,4 +45,8 @@ gallery-images img{
     .gallery-images {
         grid-template-columns: 1fr;
     }
+
+    .hero {
+        min-height: 300px;
+    }
 }
