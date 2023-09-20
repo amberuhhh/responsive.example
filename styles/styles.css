@@ -3,19 +3,19 @@
 gallery-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
 }
 
-gallery-images img{
+gallery-images img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: solid red 5px;
 }
 
 .hero {
-    background-image: url(/images/Me-and-My-Friends.png);
+    background-image: url(../images/Me-and-My-Friends.png);
     background-size: cover;
-    min-height: 400px;
+    min-height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,14 +25,16 @@ gallery-images img{
 .hero h2, .hero p {
     background-color: brown;
     color: white;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
 }
 
 .px-hading {
     font-size: 2rem;
 }
 
-
+.rem-hading {
+    font-size: 2rem;
+}
 
 
 
